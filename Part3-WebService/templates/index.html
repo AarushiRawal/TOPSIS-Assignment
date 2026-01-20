@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TOPSIS Web Service</title>
+
+    <style>
+        body {
+            background: #f4f6f9;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            width: 420px;
+            margin: 70px auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 25px;
+            color: #333;
+        }
+
+        label {
+            font-weight: bold;
+            margin-top: 15px;
+            display: block;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        input[type="file"] {
+            padding: 6px;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 25px;
+            padding: 12px;
+            background: #4a63f2;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #364be0;
+        }
+
+        .note {
+            font-size: 13px;
+            margin-top: 15px;
+            color: #666;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>TOPSIS Calculator</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+
+        <label>Upload Excel File</label>
+        <input type="file" name="file" required>
+
+        <label>Weights</label>
+        <input type="text" name="weights" placeholder="1,1,1,2,2" required>
+
+        <label>Impacts</label>
+        <input type="text" name="impacts" placeholder="+,+,-,-,-" required>
+
+        <label>Email Address</label>
+        <input type="email" name="email" placeholder="example@gmail.com" required>
+
+        <button type="submit">Run TOPSIS</button>
+
+    </form>
+
+    <div class="note">
+        Result will be sent to your email as an Excel file.
+    </div>
+</div>
+
+</body>
+</html>
