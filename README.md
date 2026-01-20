@@ -50,7 +50,7 @@ https://pypi.org/project/Topsis-Aarushi-102303601/
 - Pandas
 - NumPy
 - Flask
-- SMTP
+
 
 ---
 
