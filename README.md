@@ -57,5 +57,4 @@ https://pypi.org/project/Topsis-Aarushi-102303601/
 ## Author
 
 **Aarushi Rawal**  
-Roll No: **102303601**  
 Course: **UCS654 – Predictive Statistics**
