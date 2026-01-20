@@ -15,6 +15,17 @@ This repository contains the complete implementation of the TOPSIS (Technique fo
 
 ---
 
+## Google Colab Notebook (Part-1)
+
+The CLI-based TOPSIS implementation was also executed and tested in Google Colab.
+
+🔗 **Colab Link:**  
+https://colab.research.google.com/drive/1AzWpgbOorN0wiAk4RILG07FOP9ZXX47U?usp=sharing
+
+---
+
+---
+
 ## Part 2: PyPI Package
 
 - Converted TOPSIS program into a Python package
