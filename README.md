@@ -1,4 +1,4 @@
-# TOPSIS Assignment – 102303601
+# TOPSIS Assignment
 
 This repository contains the complete implementation of the TOPSIS (Technique for Order Preference by Similarity to Ideal Solution) method as part of the Predictive Statistics (UCS654) course assignment.
 
